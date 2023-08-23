@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Cormorant+Garamond:ital,wght@0,300;1,400&family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Cormorant+Garamond:ital@1&family=Inter:wght@600;800&display=swap');
+.dot {
+    height: 105px;
+    width: 105px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    top: 50%;
+  }
+
+.center {
+    border: 5px solid;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#notes-block {
+    /*border: 2px solid black;*/
+
+    margin:10px;
+    font-size: 11px;
+    font-family: 'Century Gothic';
+    line-height: 90%;
+
+}
+
+#summary-experience-block {
+    border: 2px solid black;
+    margin:40px;
+    margin-left:50px;
+    margin-right:50px;
+    font-size: 11px;
+    font-family: 'Century Gothic';
+    line-height: 90%;
+    padding:20px;
+
+}
+
+.summary-experience-block-title {
+    border: 2px solid black;
+    font-family: 'INTER';
+    font-size: 17px;
+    font-style:italic;
+    line-height: 90%;
+    color: #D13A32;
+
+}
+#main-center-name-block {
+    /*border: 2px solid black;*/
+
+    margin:10px;
+    font-family: 'Cormorant Garamond';
+    font-weight:800;
+    font-style:italic;
+    font-size:18px;
+    margin: auto;
+    padding:10px;
+    width:100%;
+    max-width:600px;
+}
+
+#more {
+    font-family: 'Cormorant Garamond';
+    font-weight:800;
+    font-style:italic;
+    font-size:18px;
+    text-align:center;
+}
+
+#more-parent {
+    margin: 0 auto;
+    width:100px;
+}
+.sticky{
+    position:sticky;
+    top: 0px;
+    background-color: #D1DFFF;
+    color: #fff;
+    padding: 13px;
+    padding-bottom:45px;
+    text-align:center;
+    font-size:18px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+        
+}
+li {
+    display: inline;
+    float: right;
+    margin-right:5px;
+    margin-left:30px;
+
+}
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+    color:#D1DFFF;
+    text-decoration: none;
+    font-family:'Cormorant Garamond';
+    font-style:italic;
+    font-weight:800;
+
+}
+.ellipse:hover {
+    background-color: #9a2822;
+}
+.ellipse{
+    background-color: #D13A32;
+    height: 42px;
+    width: 90px;
+    border-radius: 50%; 
+}
+.ellipse-more:hover {
+    background-color: #aac4ff;
+}
+.ellipse-more{
+    background-color: #D1DFFF;
+    height: 42px;
+    width: 90px;
+    border-radius: 50%; 
+}
+    
