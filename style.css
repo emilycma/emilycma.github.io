@@ -84,6 +84,9 @@
     font-size:18px;
     z-index: 10;
 }
+
+
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -128,3 +131,6 @@ a {
     border-radius: 50%; 
 }
     
+#email-hove:hover {
+    color: #9a2822;
+}
