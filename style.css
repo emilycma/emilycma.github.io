@@ -118,8 +118,8 @@ a {
 }
 .ellipse{
     background-color: #D13A32;
-    height: 42px;
-    width: 90px;
+    height: 40px;
+    width: 88px;
     border-radius: 50%; 
     margin-top:1px;
     margin-bottom:5px;
@@ -129,8 +129,8 @@ a {
 }
 .ellipse-more{
     background-color: #D1DFFF;
-    height: 42px;
-    width: 90px;
+    height: 40px;
+    width: 88px;
     border-radius: 50%; 
 }
     
