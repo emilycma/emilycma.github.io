@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Cormorant+Garamond:ital,wght@0,300;1,400&family=Inter:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Cormorant+Garamond:ital@1&family=Inter:wght@600;800&display=swap');
 
-
-
-
 .dot {
     height: 105px;
     width: 105px;
@@ -25,7 +22,7 @@
     /*border: 2px solid black;*/
 
     margin:10px;
-    font-size: 11px;
+    font-size: smaller;
     font-family: 'Century Gothic';
     line-height: 90%;
 
@@ -58,7 +55,7 @@
     font-family: 'Cormorant Garamond';
     font-weight:800;
     font-style:italic;
-    font-size:18px;
+    font-size:larger;
     margin: auto;
     padding:10px;
     width:100%;
@@ -101,7 +98,7 @@ li {
     display: inline;
     float: right;
     margin-right:5px;
-    margin-left:30px;
+    margin-left:10px;
 
 }
 a {
@@ -123,7 +120,6 @@ a {
     height: 42px;
     width: 90px;
     border-radius: 50%; 
-    margin-bottom:10px;
 }
 .ellipse-more:hover {
     background-color: #aac4ff;
@@ -137,4 +133,12 @@ a {
     
 #email-hove:hover {
     color: #9a2822;
+}
+
+
+.col-md-6 {
+    background:gray;
+    margin-top:10px; 
+    padding-bottom:10px;
+
 }
