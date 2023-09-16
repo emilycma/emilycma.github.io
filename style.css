@@ -19,7 +19,7 @@
 }
 
 #notes-block {
-    border: 2px solid black;
+    /*border: 2px solid green;*/
     margin:10px;
     font-size: smaller;
     font-family: 'Century Gothic';
@@ -28,7 +28,7 @@
 }
 
 #summary-experience-block {
-    border: 2px solid black;
+    /*border: 2px solid green;*/
     margin:40px;
     margin-left:50px;
     margin-right:50px;
@@ -40,7 +40,6 @@
 }
 
 .summary-experience-block-title {
-    border: 2px solid white;
     font-family: 'INTER';
     font-size: 17px;
     font-style:italic;
@@ -49,7 +48,7 @@
 
 }
 #main-center-name-block {
-    border: 2px solid green;
+    /*border: 2px solid green;*/
     margin:10px;
     font-family: 'Cormorant Garamond';
     font-weight:800;
@@ -62,7 +61,7 @@
 }
 
 #more {
-    border: 2px solid purple;
+    /*border: 2px solid green;*/
     font-family: 'Cormorant Garamond';
     font-weight:800;
     font-style:italic;
@@ -71,7 +70,7 @@
 }
 
 #more-parent {
-    border: 2px solid pink;
+    /*border: 2px solid green;*/
     margin: 0 auto;
     width:100px;
 }
@@ -140,7 +139,7 @@ a {
 
 
 .col-md-6 {
-    background:gray;
+    border:2px solid  black;
     margin-top:10px; 
     padding-bottom:10px;
 
