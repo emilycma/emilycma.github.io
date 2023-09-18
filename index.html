@@ -33,7 +33,6 @@
           </ul>
           <div style="clear:both;z-index: 10;"></div>
         </div>
-        
 
 
         <p id="notes-block">
@@ -64,25 +63,31 @@
         </div>
         
         <div id="featured-works" style="scroll-behavior: smooth;">
-              <p  class="summary-experience-block-title" style="text-align:center; padding-top:30px;  font: size 25px">
-                  FEATURED WORKS
+              <p  class="summary-experience-block-title" style="text-align:center; padding-top:50px;  font: size 25px">
+                  
               </p>
           </div>
 
         <div class="container" >
             <div class="row">
-              <div class="col-md-6">
-                <p class="summary-experience-block-title" style="margin-top:20px;">WASHU FORMULA SOCIETY OF AUTOMOTIVE ENGINEERS</p>
-                <img src="racing1.JPG" style="width:100%;">
-                Design team
+              <div class="col-md-6" >
+                <a style="all: unset;" href="washufsae.html"><p class="summary-experience-block-title" style="margin-top:20px;">WASHU FORMULA SOCIETY OF AUTOMOTIVE ENGINEERS</p> </a>
+                <a style="all: unset;" href="washufsae.html"><img src="racing1.JPG" style="width:100%; display:block;" id="1" class="image-slideshow"></a>
+                <a style="all: unset;" href="washufsae.html"><img src="racing2.jpeg" style="width:100%;" id="3" class="image-slideshow"></a>
+                <a style="all: unset;" href="washufsae.html"><img src="racing3.JPG" style="width:100%;" id="5" class="image-slideshow"></a>
+                
               </div>
-              <div class="col-md-6">
-                <p class="summary-experience-block-title" style="margin-top:20px;">NIKE INC. AIR MANUFACTURING INNOVATION</p>
-                <img src="nike1.jpg" style="width:100%;">
-                Quality engineering internship in high-volume manufacturing environment
+              <div class="col-md-6" >
+                <a style="all: unset;" href="nike.html"><p class="summary-experience-block-title" style="margin-top:20px;">NIKE INC. AIR MANUFACTURING INNOVATION</p></a>
+                <a style="all: unset;" href="nike.html"> <img src="nike1.jpg" style="width:100%; display:block;" id="2" class="image-slideshow"> </a>
+                <a style="all: unset;" href="nike.html"><img src="nike2.jpg" style="width:100%;" id="4" class="image-slideshow"></a>
+                <a style="all: unset;" href="nike.html"><img src="nike3.jpg" style="width:100%;" id="6" class="image-slideshow"></a>
+                
               </div>
             </div>    
         </div>
+
+        <!-- 
         <div class="container">
             <div class="row">
               <div class="col-md-6">
@@ -95,8 +100,33 @@
               </div>
             </div>    
         </div>
+        -->
         
-        
+        <script>
+          
+          var currentDisplayedFeaturedImage =1;
+          slideshowImages();
+          function slideshowImages() {
+              document.getElementById(currentDisplayedFeaturedImage).style.display = "none";
+              
+              if (currentDisplayedFeaturedImage<5){
+                currentDisplayedFeaturedImage++;
+                currentDisplayedFeaturedImage++;
+                document.getElementById(currentDisplayedFeaturedImage).style.display = "block";
+                currentDisplayedFeaturedImage--;
+                } else {
+                  document.getElementById(6).style.display = "none";
+                  currentDisplayedFeaturedImage=2;
+                  document.getElementById(currentDisplayedFeaturedImage).style.display = "block";
+                  
+                  currentDisplayedFeaturedImage =1;
+                  document.getElementById(currentDisplayedFeaturedImage).style.display = "block";
+                    
+                }
+              setTimeout(slideshowImages, 2000);
+          }
+         
+      </script>
       </body>
 </html>
 
