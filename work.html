@@ -10,7 +10,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
-    <body style="height: 2000px; background-color: #F0E4D4;">
+    <body style="background-color: #F0E4D4;">
       <div class="sticky">
           <div>
         <p style="float:left">
@@ -25,15 +25,107 @@
         <div style="clear:both"></div>
       </div>
 
-        <div id="summary-experience-block">
-            <p class="summary-experience-block-title">NIKE INC. AIR MANUFACTURING INNOVATION</p>
-            <img src="profilepic.jpeg" style="width:30%;min-width:200px;">
-        </div>
-
-
         
         
+      <div class="container" >
+        <div class="row" >
+          <div class="col-md-6" >
+            <a style="all: unset;" href="washufsae.html">
+              <p class="summary-experience-block-title" style="margin-top:20px;">WASHU FORMULA SOCIETY OF AUTOMOTIVE ENGINEERS</p> 
+            </a>
+            <p class="about-subheading-role-description" style="padding:0px;margin-top:-10px;">
+              Chassis Lead/Outreach Manager
+            </p>
+            <a style="all: unset;" href="washufsae.html"><img src="racing1.JPG" style="width:100%; display:block;" id="1" class="image-slideshow"></a>
+            <a style="all: unset;" href="washufsae.html"><img src="racing2.jpeg" style="width:100%;" id="3" class="image-slideshow"></a>
+            <a style="all: unset;" href="washufsae.html"><img src="racing3.JPG" style="width:100%;" id="5" class="image-slideshow"></a>
+              
+          </div>
+          <div class="col-md-6" >
+            <a style="all: unset;" href="nike.html"><p class="summary-experience-block-title" style="margin-top:20px;">NIKE INC. AIR MANUFACTURING INNOVATION</p></a>
+            <p class="about-subheading-role-description" style="padding:0px;margin-top:-10px;">
+              Quality Manufacturing Intern
+            </p>
+            <a style="all: unset;" href="nike.html"> <img src="nike1.jpg" style="width:100%; display:block;" id="2" class="image-slideshow"> </a>
+            <a style="all: unset;" href="nike.html"><img src="nike2.jpg" style="width:100%;" id="4" class="image-slideshow"></a>
+            <a style="all: unset;" href="nike.html"><img src="nike3.jpg" style="width:100%;" id="6" class="image-slideshow"></a>
+          </div>
+        </div>    
+      </div>
+      <div class="container" >
+        <div class="row">
+          <div class="col-md-6" >
+            <a style="all: unset;" href="spartan.html"><p class="summary-experience-block-title" style="margin-top:20px;">SPARTAN LIGHT METAL PRODUCTS MAKERSPACE</p> </a>
+            <p class="about-subheading-role-description" style="padding:0px;margin-top:-10px;">
+              Senior Makertech
+            </p>
+            <a style="all: unset;" href="spartan.html"><img src="makerspace1.JPG" style="width:100%; display:block;" id="1" class="image-slideshow"></a>
+            <a style="all: unset;" href="spartan.html"><img src="makerspace2.jpeg" style="width:100%;" id="3" class="image-slideshow"></a>
+              
+          </div>
+          <div class="col-md-6" >
+            <a style="all: unset;" href="nike.html"><p class="summary-experience-block-title" style="margin-top:20px;">SCALABLE INTEGRATED MICROSYSTEMS LABORATORY @ WUSTL</p></a>
+            <p class="about-subheading-role-description" style="padding:0px;margin-top:-10px;">
+              Undergraduate Research Assistant
+            </p>
+            <a style="all: unset;" href="nike.html"> <img src="nike1.jpg" style="width:100%; display:block;" id="2" class="image-slideshow"> </a>
+            <a style="all: unset;" href="nike.html"><img src="nike2.jpg" style="width:100%;" id="4" class="image-slideshow"></a>
+            <a style="all: unset;" href="nike.html"><img src="nike3.jpg" style="width:100%;" id="6" class="image-slideshow"></a>
+          </div>
+        </div>    
+      </div>
+      <div class="container" style = "padding-bottom:70px;" >
+        <div class="row">
+          <div class="col-md-6" >
+            <a style="all: unset;" href="washufsae.html"><p class="summary-experience-block-title" style="margin-top:20px;">DAMENA AGONAFER LABORATORY</p> </a>
+            <p class="about-subheading-role-description" style="padding:0px;margin-top:-10px;">
+              Undergraduate Research Assistant
+            </p>
+            <a style="all: unset;" href="washufsae.html"><img src="racing1.JPG" style="width:100%; display:block;" id="1" class="image-slideshow"></a>
+            <a style="all: unset;" href="washufsae.html"><img src="racing2.jpeg" style="width:100%;" id="3" class="image-slideshow"></a>
+            <a style="all: unset;" href="washufsae.html"><img src="racing3.JPG" style="width:100%;" id="5" class="image-slideshow"></a>
+              
+          </div>
+          <div class="col-md-6" >
+            <a style="all: unset;" href="nike.html"><p class="summary-experience-block-title" style="margin-top:20px;">THERMAVANT TECHNOLOGIES</p></a>
+            <p class="about-subheading-role-description" style="padding:0px;margin-top:-10px;">
+              Project Intern
+            </p>
+            <a style="all: unset;" href="nike.html"> <img src="nike1.jpg" style="width:100%; display:block;" id="2" class="image-slideshow"> </a>
+            <a style="all: unset;" href="nike.html"><img src="nike2.jpg" style="width:100%;" id="4" class="image-slideshow"></a>
+            <a style="all: unset;" href="nike.html"><img src="nike3.jpg" style="width:100%;" id="6" class="image-slideshow"></a>
+          </div>
+        </div>    
+      </div>
+
+
+
+
       
+      <script>
+        var currentDisplayedFeaturedImage =1;
+        slideshowImages();
+        function slideshowImages() {
+            document.getElementById(currentDisplayedFeaturedImage).style.display = "none";
+            
+            if (currentDisplayedFeaturedImage<5){
+              currentDisplayedFeaturedImage++;
+              currentDisplayedFeaturedImage++;
+              document.getElementById(currentDisplayedFeaturedImage).style.display = "block";
+              currentDisplayedFeaturedImage--;
+              } else {
+                document.getElementById(6).style.display = "none";
+                currentDisplayedFeaturedImage=2;
+                document.getElementById(currentDisplayedFeaturedImage).style.display = "block";
+                
+                currentDisplayedFeaturedImage =1;
+                document.getElementById(currentDisplayedFeaturedImage).style.display = "block";
+                  
+              }
+            setTimeout(slideshowImages, 2000);
+        }
+       
+    </script>
         
       </body>
 </html>
