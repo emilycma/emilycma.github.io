@@ -45,7 +45,7 @@
     font-family: 'INTER';
     font-size: 17px;
     font-style:italic;
-    font-weight:bolder;
+    font-weight:500;
     line-height: 90%;
     color: #D13A32;
 
@@ -175,6 +175,7 @@ a {
     overflow: hidden;
     display: flex;
     white-space: nowrap;
+    font-weight: 800;
 }
 
 @keyframes animate_text {
