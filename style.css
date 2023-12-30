@@ -175,7 +175,8 @@ a {
     overflow: hidden;
     display: flex;
     white-space: nowrap;
-    font-weight: 800;
+    font-weight:600;
+
 }
 
 @keyframes animate_text {
@@ -191,7 +192,7 @@ a {
     color: #003049;
     animation: animate_text 30s linear infinite; /* The animation property */
     font-family: 'INTER';
-    font-weight: 700;
+    font-weight:600;
     font-style:italic;
 }
 
