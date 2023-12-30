@@ -186,7 +186,7 @@ a {
 }
 .text {
     font-size: 25px;
-    color: black;
+    color: #003049;
     animation: animate_text 30s linear infinite; /* The animation property */
     font-family: 'INTER';
     font-style:italic;
@@ -212,7 +212,8 @@ a {
     text-align: center;
   }
 
-  .container-test:hover .image-test {
+/* experience photo darkens on hover */
+.container-test:hover .image-test {
     filter:brightness(70%);     
 }
 
@@ -220,16 +221,25 @@ a {
     opacity: 1;
   }
   
+/* hovering over experience shows */
 .text-test {
-    background-color: #04AA6D;
-    color: white;
+    background-color: #003049;
+    color: #D1DFFF;
     font-size: 13px;
+    font-family:Georgia;
     padding: 16px 16px;
   }
 
-
-
-
+  .bold-on-hover a:hover {
+    all:unset;
+    font-weight: bolder;
+    color: #003049;
+  }
+  .bold-on-hover{
+    all:unset;
+    
+    
+  }
 
   
   
