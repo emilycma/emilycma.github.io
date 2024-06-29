@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Cormorant+Garamond:ital,wght@0,300;1,400&family=Inter:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Cormorant+Garamond:ital@1&family=Inter:wght@600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
 .dot {
     height: 105px;
@@ -76,6 +77,38 @@
     /*border: 2px solid green;*/
     margin: 0 auto;
     width:100px;
+}
+
+#about-link-hov {
+    all:unset;
+    font-weight:bolder
+
+}
+
+#about-link-hov:hover {
+    color: #9a2822;
+}
+
+#personalproject-heading{
+    font-family:'Libre Baskerville';
+    font-weight:700;
+    font-size:40px;
+    color: #023f7a;
+}
+.personalproject-subheading{
+    all:unset;
+    font-family:'Libre Baskerville';
+    font-weight:700;
+    font-size:30px;
+    color: #023f7a;
+    padding-right:30px;
+    position:absolute;
+    right: 50px;
+}
+
+.personalproject-caption{
+    all:unset;
+    font-size:20;
 }
 .sticky{
     position:sticky;
@@ -247,6 +280,28 @@ a {
 
   
   
+  #background-mahjong-bird{
+    padding-top:30px;
+    margin-top:10px;
+    background-image: url("path1789.png");
+    background-repeat: no-repeat, repeat;
+
+    background-size:30%;
+    background-attachment: fixed;
+    background-position: 2% 100px;
+    
+    
+    
+    /*
+    
+    background-repeat: repeat-y;
+    background-position: 2% 0%;
+    
+    background-repeat:no-repeat;
+    
+    */
+    
+  }
   
 
 
